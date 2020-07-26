@@ -1,0 +1,41 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+
+    {% include nav.html %}
+
+    <!-- Content -->
+    <div style="height:15vh;"></div>
+    <div class="container" id="status-info">
+        <h1>Status Page</h1>
+        <h3>Here is the current status of all RetryLife services, and dependencies of the RetryLife API</h3>
+
+        <!-- Statuses -->
+        <ul class="list-group" id="status-container">
+            <li class="list-group-item list-group-item-light">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border text-danger" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <h5>This data is fetched periodically from <a href="https://api.retrylife.ca/status">api.retrylife.ca/status</a></h5>
+    </div>
+
+    <!-- API Fetch script -->
+    <script src="/assets/js/status.js"></script>
+
+    {% include footer.html %}
+</body>
+
+</html>

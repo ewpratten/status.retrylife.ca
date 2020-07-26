@@ -1,0 +1,25 @@
+#status-info h1, h3, h5 {
+    color: white;
+}
+
+#status-info a {
+    color: var(--color-orange);
+}
+
+.service-name a{
+    color: var(--color-blue)!important;
+}
+
+.service-name {
+    float: left;
+}
+
+.service-status {
+    float: right;
+    color: white;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

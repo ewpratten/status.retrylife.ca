@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "walsheim-bold";
+    src: url("../fonts/GT-Walsheim-Bold.woff")
+}
+
+@font-face {
+    font-family: "walsheim-regular";
+    src: url("../fonts/GT-Walsheim-Regular.woff")
+}
+
+@font-face {
+    font-family: "tiempos-regular";
+    src: url("../fonts/TiemposTextWeb-Regular.woff2")
+}
+
+h1{
+    line-height: 1.25;
+    font-size: 3.5rem;
+}
+
+h1, h2{
+    font-family: "walsheim-bold", "sans-serif";
+}
+
+h3, h4, h5, h6 {
+    font-family: "walsheim-regular", "sans-serif";
+}
+
+p{
+    font-family: "tiempos-regular", "sans-serif";
+}

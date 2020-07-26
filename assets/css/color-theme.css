@@ -1,0 +1,22 @@
+:root{
+    --color-red: #ff556e;
+
+    --color-purple:#4844a3;
+    --color-light-purple: #8a8ed8;
+    --color-dark-purple:#342d71;
+
+    --color-blue:#50b9e8;
+    --color-dark-blue:#1274bf;
+
+    --color-orange: #ffc07f;
+
+    --color-pink: #e15fbd;
+
+    --light-gray: #e9e9ed;
+
+    --main-color: var(--color-dark-blue);
+}
+
+body{
+    background-color: var(--main-color);
+}

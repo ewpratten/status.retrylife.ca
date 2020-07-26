@@ -1,0 +1,17 @@
+---
+---
+
+.custom-navbar {
+    background-color: var(--main-color)!important;
+    /* background-color: unset!important;
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+    /* box-shadow: 0px 10px 3px var(--color-purple); */
+    width: 101%;
+    overflow: hidden;
+}
+
+.custom-navbar img{
+    height: 40px;
+}
